@@ -1,4 +1,4 @@
-# LibSlash 3.0.1 (RoR assist fix)
+# LibSlash 3.0.2 (RoR assist fix)
 
 Fork of **LibSlash** (Aiiane) for [Return of Reckoning](https://www.returnofreckoning.com/).
 

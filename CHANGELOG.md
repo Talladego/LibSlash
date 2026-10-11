@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.2 (2026-10-11)
+
+- Run the upstream `_G` conflict scan once at init (not on every RegisterSlashCmd).
+- Keep hash/scan helpers local; stop exposing a global `c`.
+- `UnregisterSlashCmd` / `IsSlashCmdRegistered` lowercase input; unregister also clears `wslashCommands`.
+
 ## 3.0.1 (2026-10-11)
 
 - Tail-call the stock `EA_ChatWindow.OnKeyEnter` for unregistered slash commands.
