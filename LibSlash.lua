@@ -160,7 +160,7 @@ function LibSlash.RegisterWSlashCmd(slash, handler)
     slash = slash:lower()
 
     if not slash:match(L"^([a-z0-9\x0430-\x044F\x0451\x0410-\x042F\x0401]+)$") then
-        d("Attempt to register slash command with illegal characters (only a-z and 0-9 allowed) ignored.")
+        d("Attempt to register slash command with illegal characters (only a-z, russian alphabet, and 0-9 allowed) ignored.")
         return false
     end
 

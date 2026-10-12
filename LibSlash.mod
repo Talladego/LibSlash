@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModuleFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<UiMod name="LibSlash" version="3.0.2" date="11/10/2026" >
+	<UiMod name="LibSlash" version="3.0.3" date="12/10/2026" >
 
 		<Author name="Aiiane" email="aiiane@aiiane.net" />
-		<Description text="Simple library for registering handlers for slash commands. 3.0.2: assist-safe OnKeyEnter tail-call; local conflict scan once at init; UnregisterSlashCmd lowercases and clears wslash too." />
+		<Description text="Simple library for registering handlers for slash commands. 3.0.3: assist-safe OnKeyEnter tail-call; local conflict scan once at init; UnregisterSlashCmd lowercases and clears wslash too; RegisterWSlashCmd illegal-char message matches Cyrillic pattern." />
 	
     <VersionSettings gameVersion="1.4.8" windowsVersion="1.0" savedVariablesVersion="1.0" />
 	

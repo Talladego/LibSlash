@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.3 (2026-10-12)
+
+- `RegisterWSlashCmd` illegal-character debug message now matches `RegisterSlashCmd`
+  (a-z, Russian alphabet, and 0-9), consistent with the shared pattern.
+
 ## 3.0.2 (2026-10-11)
 
 - Run the upstream `_G` conflict scan once at init (not on every RegisterSlashCmd).

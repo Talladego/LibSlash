@@ -1,4 +1,4 @@
-# LibSlash 3.0.2 (RoR assist fix)
+# LibSlash 3.0.3 (RoR assist fix)
 
 Fork of **LibSlash** (Aiiane) for [Return of Reckoning](https://www.returnofreckoning.com/).
 
@@ -17,6 +17,10 @@ return origOnKeyEnter(...)
 ```
 
 Registered slash handlers still run as before.
+
+The legacy `_G` conflict scan (Aiiane, 2010) runs **once** at LibSlash init, not on
+every `RegisterSlashCmd`. Addons that load after LibSlash are not re-scanned; that
+trade is intentional.
 
 ## Install
 
